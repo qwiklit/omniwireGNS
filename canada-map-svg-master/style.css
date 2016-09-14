@@ -1,0 +1,153 @@
+body {
+  background-color: #efefef;
+  margin-left: 12%;
+  float: left;
+  padding: 0;
+  text-align: center;
+ 
+}
+
+#province {
+  font-size: 22px;
+  color: white;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border: 1px solid #273754;
+  width: 350px;
+  color: black;
+font-family: 'Droid Sans', sans-serif;
+  padding-top: 40px;
+  font-weight: 400;
+  float: right;
+     height: 50px;
+ 
+  
+}
+
+@media (max-width: 950px) {
+    svg { max-width: 100%; max-height: 100%; }
+    div#province { display: block; float: left; width: 100%; top: 810px;}
+     div#population { width: 100%; top: 810px; min-height: 2500px; float: left;}
+    .titleheader  {width: 100%; text-align: center;}
+    .titleheader h1 {font-size: 15px; line-height: 1.3;}
+    #provincetag {margin-top: -20px;}
+    body { margin-left: 3%; min-height: 6000px;}
+  
+}
+
+@media (max-width: 450px) {
+    
+    svg {display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;}
+    .titleheader  {width: 100%; text-align: center;}
+    .titleheader h1 {font-size: 15px; line-height: 1.3;}
+  
+}
+
+#sidebar {height: 100%;}
+#population {
+  font-size: 22px;
+  color: black;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border: 1px solid #273754;
+  width: 350px;
+  color: black;
+  font-family: 'rubik', sans-serif;
+  font-weight: 200;
+  float: right;
+  margin-top: 90px;
+  height: 88.5%;
+}
+
+@media (max-width: 1250px) {
+#population {
+    height: 105%;
+}
+}
+
+#population iframe {
+    height: 100%;
+    width: 100%;
+}
+
+#rsr {
+  margin-top: 40px;
+  margin-left: 0px;
+}
+
+#globalintelligencelogo  {
+    position: absolute;
+}
+
+#provincetag { 
+    font-family: 'rubik', sans-serif;
+    font-size: 22px;
+    padding-top: 1px;
+    color: #273754;
+    font-weight: 200;
+            }
+
+.titleheader button {
+    float: left;
+    margin-left: -90px;
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+}
+.titleheader h1 {
+  font-family: 'rubik', sans-serif;
+    font-size: 34px;
+    
+    color: #273754;
+    
+    text-align: center;
+    font-weight: 200;
+}
+
+.titleheader span {
+    color: red;
+  
+    
+}
+
+.titleheader a {
+    color: #efefef;
+    
+}
+
+.titleheader h5 {
+  font-family: 'rubik', sans-serif;
+    font-size: 18px;
+padding-bottom: -20px;
+color: #273754;
+opacity: 0.8;
+    margin-top: -15px;
+    font-weight: 200;
+}
+
+#provincesvg {
+ display: none;
+}
+
+.provinceframe {
+    border-style: none;
+    margin-left: -40px;
+    
+}
+
+.provinceframe svg{
+    background: blue;
+}
+
+.backbutton
+{
+background-image: url(arrow.png);
+
+}

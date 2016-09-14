@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Canada map made with Raphael</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+   <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet" type='text/css'>
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+   <script src="iframe.js"></script>
+</head>
+<body>
+
+  <div class="titleheader" style="color: black; ">
+      <h1>Omniwire News Service</h1><h5>The world's best news map    <a href="#" style="display:none;"><span style="color: #273754;">•</span><span>    Back to Canada</span></a></h5>
+  </div>
+
+
+     <div id="rsr" target="clickhandler">
+        </div>
+ 
+     <div id="provincesvg" target="clickhandler" >
+         <iframe class="provinceframe" width="690px" height="609px" src="newontario.svg">
+         </iframe>
+    </div>   
+    </div>
+
+     
+<div id="provincetag">Canada</div>
+<div id="sidebar">
+
+  <div id="province">The Latest</a></div>
+      
+      
+  <div id="population">
+ <iframe name="sidebarframe" src="http://www.tapestryreader.com/omniwire-ontario.html" frameborder="0" id="clickhandler" height="auto" width="auto" allowfullscreen="">
+
+ </iframe>
+      </div>
+    
+      
+<script>
+   var el = document.getElementById('clickhandler');
+el.src = url; // assign url to src property
+</script>
+    
+    
+  <script type="text/javascript" src="raphael.js"></script>
+  <script type="text/javascript" src="canada-map-svg.js"></script>
+  <script type="text/javascript" src="province-data.js"></script>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
